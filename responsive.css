@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .main-right .title {
+        font-family: 'Space Mono', monospace;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4rem;
+        letter-spacing: -0.035rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .main .main-right .paragraph {
+        font-family: 'Space Mono', monospace;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: -0.035r em;
+        text-align: left;
+        margin-bottom: 4rem;
+    }
+    .main .main-right .button {
+        width: 180px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
